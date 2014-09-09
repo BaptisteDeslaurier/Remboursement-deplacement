@@ -72,7 +72,7 @@ public class Main {
 					int heurePar = deptObjet.nextInt();
 					//Aller simple en semaine de jour pour une heure
 					if (heurePar == 1){
-						System.out.println("Veuillez le nb km parcouru :");
+						System.out.println("Veuillez le nombre km parcouru :");
 						int nbKm = deptObjet.nextInt();
 						double montantRemb = dept[0] + (nbKm * dept[2]);
 						System.out.println("Le remboursement est de " + montantRemb);
